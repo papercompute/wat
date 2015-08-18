@@ -1,0 +1,30 @@
+{
+  "name": "wat",
+  "description": "web app template",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/papercompute/wat"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.1.3",
+    "socket.io": "^1.3.6",
+    "socket.io-client": "^1.3.6",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3",
+    "alt": "^0.17.1",
+    "async": "^1.4.2"
+  },
+  "devDependencies": {
+    "react-tools": "^0.13.3",
+    "gulp": "^3.9.0",
+    "gulp-react": "^3.0.1",
+  },
+  "license": "MIT"
+}
